@@ -60,15 +60,15 @@ Follow these instructions to get a local copy of the project up and running.
 ### Installation
 
 1. **Clone the repository**
-#if using ssh key 
+  #if using ssh key 
     ```bash
    git clone git@github.com:rkumarrohan12-cloud/ParkShare.git
    ```
-#if using https
+  #if using https
     ```bash
      git clone https://github.com/rkumarrohan12-cloud/ParkShare.git
      ```
-   Navigate to the project directory
+2. **Navigate to the project directory**
    ```bash
    cd ParkShare
    ```
