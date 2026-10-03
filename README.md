@@ -54,7 +54,7 @@ Follow these instructions to get a local copy of the project up and running.
 ### Prerequisites
 
 * Node.js (v16.x or higher)
-* npm or yarn
+* npm 
 * Git
 
 ### Installation
@@ -62,50 +62,51 @@ Follow these instructions to get a local copy of the project up and running.
 1. **Clone the repository**
    ```bash
    git clone [https://github.com/rkumarrohan12-cloud/ParkShare.git](https://github.com/rkumarrohan12-cloud/ParkShare.git)
-Navigate to the project directory
+   ```
+   Navigate to the project directory
+   ```bash
+   cd ParkShare
+   ```
+   
+1. **Install all dependencies**
+   ```bash
+   npm install
+   ```
 
-Bash
-cd ParkShare
-Install Dependencies
+2. **Start the server**
+   ```bash
+   npm run server
+   ```
+# The commands below will be used during working on the project.
+3. **Switch to a new branch**
+   ```bash
+   git checkout -b your-branch-name
+   ```
 
-Bash
-# If using npm
-npm install
+4. **Switch to an existing branch**
+   ```bash
+   git checkout existing-branch-name
+   ```
 
-# If using yarn
-yarn install
-Set up Environment Variables
-Create a .env file in the root directory and add your API keys (Maps, Database, Payments):
+5. **Pull the latest changes from the main branch**
+   ```bash
+   git pull origin main
+   ```
 
-Code snippet
-PORT=5000
-DATABASE_URL=your_database_connection_string
-MAPS_API_KEY=your_maps_api_key
-STRIPE_SECRET_KEY=your_stripe_key
-JWT_SECRET=your_jwt_secret
-Run the Application
+6. **Stage your changes for commit**
+   ```bash
+   git add .
+   ```
 
-Bash
-npm run dev
-The application will be running at http://localhost:3000.
+7. **Commit your changes**
+   ```bash
+   git commit -m "update"
+   ```
 
-📱 Usage
-For Owners: Create an account, navigate to "Add a Spot", upload photos, set your hourly/daily rate, and publish.
-
-For Drivers: Search for your destination, browse available spots, select your time frame, and complete the payment to reserve.
-
-🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
+8. **Push your changes to GitHub**
+   ```bash
+   git push origin your-branch-name
+   ```
 
 📜 License
 Distributed under the MIT License. See LICENSE for more information.
