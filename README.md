@@ -36,14 +36,18 @@ private garages, and commercial lots into accessible parking spots. Spot owners 
 
 ## 🛠 Tech Stack
 
-*(Update this section based on your actual tech stack)*
+**Frontend**
+* **Framework:** React.js powered by [Vite](https://vitejs.dev/) for lightning-fast development
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) for highly responsive, utility-first UI design
+* **Routing:** [React Router](https://reactrouter.com/) for seamless client-side page navigation
 
-* **Frontend:** React.js / Next.js / TailwindCSS
-* **Backend:** Node.js / Express.js / Python Django
-* **Database:** MongoDB / PostgreSQL
-* **Mapping/Location:** Google Maps API / Mapbox
-* **Authentication:** Firebase Auth / JSON Web Tokens (JWT)
-* **Payments:** Stripe API
+**Backend**
+* **Runtime & Framework:** Node.js with Express.js for scalable RESTful APIs
+* **Database:** PostgreSQL (using `pg` connection pool) for robust, relational data management
+* **Security & Authentication:** 
+  * **JWT (JSON Web Tokens):** Stateless, secure API authentication
+  * **bcrypt:** Strong password hashing and encryption
+  * **RBAC:** Role-based access control separating Spot Owners, Drivers, and Admins
 
 ---
 
